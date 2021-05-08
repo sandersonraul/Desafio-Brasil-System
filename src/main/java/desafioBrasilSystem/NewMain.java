@@ -105,9 +105,7 @@ public class NewMain {
         dia = lista.get(0);
         mes = lista.get(1);
         ano = lista.get(2);
-        int d = Integer.parseInt(dia);
-        int m = Integer.parseInt(mes);
-        int a = Integer.parseInt(ano);
+       
         int d1 = Integer.parseInt(dia.substring(0, 1));
         int d2 = Integer.parseInt(dia.substring(1, 2));
         int m1 = Integer.parseInt(mes.substring(0, 1));
